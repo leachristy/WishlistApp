@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Routes, Route } from 'react-router-dom'
-import { Header } from './components/Header'
-import Home from './pages/Home'
-import CreateWishlist from './pages/CreateWishlist'
-import EditWishlist from './pages/EditWishlist'
-import WishlistDetails from './pages/WishlistDetails'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import { Routes, Route } from "react-router-dom";
+import { Header } from "./components/Header";
+import { Home } from "./pages/Home";
+import { CreateWishlist } from "./pages/CreateWishlist";
+import { EditWishlist } from "./pages/EditWishlist";
+import { WishlistDetails } from "./pages/WishlistDetails";
 
 function App() {
   return (
@@ -23,5 +23,4 @@ function App() {
   );
 }
 
-export default App
-
+export default App;

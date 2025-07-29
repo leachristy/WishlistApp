@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from "react";
 
 export const CreateWishlist = () => {
-  return (
-    <div>CreateWishlist</div>
-  )
-}
+  const [page, setPage] = useState(0);
+
+  return <>{page === 0 && <div>Page 1</div>}</>;
+};
