@@ -7,7 +7,7 @@ export const Header = () => {
       <div>
         <Link to="/" className="hover:text-gray-200 flex gap-1 items-end">
           <Gift size={50} />
-          <p className=" text-2xl font-cherry">Wish List</p>
+          <p className="text-2xl font-cherry py-2">wishpin</p>
         </Link>
       </div>
 
