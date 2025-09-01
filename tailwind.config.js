@@ -6,10 +6,14 @@ export default {
       fontFamily: {
         "roboto": ["Roboto", "sans-serif"],
         "cherry": ["Cherry Bomb One", "cursive"],
+        "tasa-explorer": ["TASA Explorer", "sans-serif"],
+        "rubik": ["Rubik", "sans-serif"],
       },
 
       colors: {
         "off-white": "#FAF9F6",
+        "red": "#E60023",
+        "pink": "#E75480",
       },
     },
   },
